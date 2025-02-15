@@ -1,0 +1,33 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #3B6790, #feb47b);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 0.5em;
+    /* color: #EFB036; */
+    color: linear-gradient(to right, #3B6790, #feb47b);
+}
+#footer{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1em;
+}
+
